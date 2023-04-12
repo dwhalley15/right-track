@@ -1,0 +1,31 @@
+.header{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items:center;
+  width: 99%;
+  justify-content: space-between;
+  border: solid white;
+  background-image: linear-gradient(to right, #2EAF7D , #3FD0C9);
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.logo{
+  color:white;
+}
+
+
+.logo:hover{
+  opacity:0.5;
+  text-decoration:none;
+}
+
+.navIcon{
+  margin: 5px;
+}
+
+.navIcon:hover{
+  opacity:0.5;
+}
+

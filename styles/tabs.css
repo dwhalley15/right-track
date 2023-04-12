@@ -1,0 +1,57 @@
+/* Browser View */ 
+
+.tabs{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.tabOne{
+  margin:20px;
+}
+
+.tabTwo{
+  margin:20px;
+}
+
+.tabThree{
+  margin:20px;
+}
+
+#task_desc{
+  width: 100%;
+  color: #02353C;
+  resize: none;
+  outline:none;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  height: 150px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+#task_desc:focus{
+  background-color: #C1F6ED;
+}
+
+/* Mobile View */ 
+
+@media screen and (min-width: 600px){
+  .tabs{
+    flex-wrap: nowrap;
+  }
+
+  .tabOne{
+    width:50%;
+  }
+  
+  .tabTwo{
+    width:50%;
+  }
+
+  .tabThree{
+    width:50%;
+  }
+}

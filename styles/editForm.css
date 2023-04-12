@@ -1,0 +1,43 @@
+/* Browser View */ 
+
+table{
+  width: 100%;
+}
+
+td{
+  text-align: left;
+  width:auto;
+  padding: 5px;
+}
+
+#course_desc{
+  width: 100%;
+  color: #02353C;
+  resize: none;
+  outline:none;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  height: 150px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+#course_desc:focus{
+  background-color: #C1F6ED;
+}
+
+.task_to_course_list{
+  height: 300px;
+  overflow: scroll;
+}
+
+/* Mobile View */ 
+
+@media screen and (min-width: 600px){
+  .editForm{
+    margin-left:450px;
+    margin-right:450px;
+  }
+  
+}

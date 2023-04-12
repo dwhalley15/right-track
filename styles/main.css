@@ -1,0 +1,205 @@
+*{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color:white;
+}
+
+body{
+  background-image: linear-gradient(to right, #02353C,#2EAF7D,#3FD0C9);
+}
+
+a{
+  outline:none;
+}
+
+a:link{
+  text-decoration: none;
+  outline:none;
+}
+
+a:visited {
+  text-decoration: none;
+  outline:none;
+}
+
+a:hover {
+  text-decoration: underline;
+  outline:none;
+}
+
+a:active {
+  text-decoration: underline;
+  border: none;
+  outline:none;
+}
+
+.errorHidden{
+  display:none;
+  color: #02353C;
+  margin-top:20px;
+}
+
+.errorShown{
+  margin: 20px;
+  color: #02353C;
+}
+
+.submitBtn{
+  padding:15px;
+  font-size:24px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #2EAF7D , #3FD0C9);
+  color:#02353C;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+.submitBtn:hover{
+  background-image: linear-gradient(to right, #02353C , #2EAF7D);
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.submitBtn:focus{
+  background-image: linear-gradient(to right, #2EAF7D , #3FD0C9);
+}
+
+.submitBtn:focus:hover{
+  background-image: linear-gradient(to right, #02353C , #2EAF7D);
+}
+
+.linkBtn{
+  color:#02353C;
+  cursor:pointer;
+}
+
+.addTaskBtn{
+  color:#02353C;
+  cursor:pointer;
+}
+
+.removeTaskBtn{
+  color:#02353C;
+  cursor:pointer;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  margin: 10px;
+  padding:10px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+.changeBtn{
+  padding:5px;
+  font-size:16px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #2EAF7D , #3FD0C9);
+  color:#02353C;
+  border: 1px solid white;
+  border-radius: 12px;
+  outline:none;
+}
+
+.changeBtn:hover{
+  background-image: linear-gradient(to right, #02353C , #2EAF7D);
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.changeBtn:focus{
+  background-image: linear-gradient(to right, #2EAF7D , #3FD0C9);
+}
+
+.changeBtn:focus:hover{
+  background-image: linear-gradient(to right, #02353C , #2EAF7D);
+}
+
+select{
+  padding:5px;
+  font-size:16px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #2EAF7D , #3FD0C9);
+  color:#02353C;
+  border: 1px solid white;
+  border-radius: 12px;
+  outline:none;
+}
+
+select:hover{
+  background-image: linear-gradient(to right, #02353C , #2EAF7D);
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+select:focus{
+  background-image: linear-gradient(to right, #2EAF7D , #3FD0C9);
+}
+
+select:focus:hover{
+  background-image: linear-gradient(to right, #02353C , #2EAF7D);
+}
+
+.rtLogo{
+  width:50%;
+}
+
+.nav{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: center;
+  margin: 20px;
+  gap: 5px;
+}
+
+.allTasks{
+  margin:20px;
+  display:flex;
+  flex-direction: column;
+  height: 860px;
+  overflow:scrol;
+}
+
+.taskView{
+  border: 1px solid white;
+  border-radius: 12px;
+  margin: 10px;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.accountNav{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items:center;
+  border: 1px solid white;
+  border-radius: 12px;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  gap: 5px;
+  background-image: linear-gradient(to right, #2EAF7D , #3FD0C9);
+  padding: 10px;
+}
+
+#completeTaskBtn{
+  display:none;
+}

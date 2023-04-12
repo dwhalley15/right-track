@@ -1,0 +1,97 @@
+/* Browser View */ 
+
+.content{
+  margin:50px;
+}
+
+fieldset{
+  padding: 30px;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+input{
+  width:100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  border: 1px solid white;
+  outline:none;
+  color: #02353C;
+  background-color: transparent;
+  border-radius: 12px;
+}
+
+input:focus{
+  background-color: #C1F6ED;
+}
+
+.hidden{
+  display:none;
+}
+
+#submitBtn{
+  display:none;
+  float:right;
+  width: 45%;
+}
+
+#prevBtn{
+  visibility:hidden;
+  width:45%;
+}
+
+#nextBtn{
+  width: 45%;
+  float:right;
+}
+
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #C1F6ED;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+#stepOne{
+  background-color: #02353C;
+  opacity: 1;
+}
+
+#task_type{
+  width: 100%;
+  color:#02353C;
+  margin: 8px 0;
+}
+
+.editRole{
+  height: 860px;
+  overflow: scroll;
+}
+
+.options{
+  background-color: #02353C;
+  color: white;
+  border:none;
+  outline:none;
+}
+
+.options:hover{
+  background-color: white;
+  color: #02353C;
+}
+
+/* Mobile View */ 
+
+@media screen and (min-width: 600px){
+  
+  .content{
+    margin-left:300px;
+    margin-right:300px;
+  }
+  
+}
