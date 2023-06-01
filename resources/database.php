@@ -1,10 +1,10 @@
 <?php
     //Connects to the database.
     function connect(){
-      $username = "s5416741";
-      $password = "UwzgJi9mJAKXYNpeFqukwCpuRfpLrJT4";
-      $host = "db.bucomputing.uk";
-      $port = 6612;
+      $username = "g5416741";
+      $password = "hplj4000";
+      $host = "db.db4free.net";
+      $port = 3306;
       $database = $username;
       $conn = new mysqli();
       $conn->init();
