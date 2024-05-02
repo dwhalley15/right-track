@@ -139,7 +139,7 @@ function addValidation(){
   let cAdd = document.forms["signup"]["cAddress"].value;
   let pCode = document.forms["signup"]["pAddress"].value;
   let nameFormat = /^[A-Za-z\s]+$/;
-  var pCodeFormat = /[A-Z]{1,2}[0-9]{1,2} ?[0-9][A-Z]{2}/i;
+  var pCodeFormat = /^[A-Z0-9\s-]{3,12}$/i;
   if(sAdd == "" || tAdd == "" || cAdd == "" || pCode == ""){
       valid = false;
   }
