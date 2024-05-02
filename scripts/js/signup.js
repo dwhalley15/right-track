@@ -114,7 +114,7 @@ function contactValidation(){
   let pNumb = document.forms["signup"]["pNumb"].value;
   let dob = document.forms["signup"]["dob"].value;
   let nameFormat = /^[A-Za-z\s]+$/;
-  var phoneFormat = /^\d{11}$/;
+  var phoneFormat = /^\+?(\d{1,3})?[ -]?\(?\d{2,4}\)?[ -]?\d{3,4}[ -]?\d{3,4}$/;
   if(company == "" || pNumb == "" || dob == ""){
       valid = false;
   }
