@@ -175,7 +175,7 @@ select:focus:hover{
   display:flex;
   flex-direction: column;
   height: 860px;
-  overflow:scrol;
+  overflow:scroll;
 }
 
 .taskView{
@@ -184,6 +184,8 @@ select:focus:hover{
   margin: 10px;
   display:flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2px;
 }
 
 .accountNav{
